@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="txtPass" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="247.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.miExamen1JSE.FXMLController">
+   <children>
+      <Label layoutX="120.0" layoutY="51.0" text="Login Usuario">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="25.0" layoutY="82.0" text="Usuario:" />
+      <Label layoutX="25.0" layoutY="111.0" text="Password:" />
+      <TextField fx:id="txtUsuario" layoutX="103.0" layoutY="78.0" />
+      <PasswordField fx:id="txtPasss" layoutX="103.0" layoutY="107.0" />
+      <Button layoutX="152.0" layoutY="157.0" mnemonicParsing="false" onAction="#btnClickAction" text="Ingresar" />
+      <Label fx:id="lblVerificacion" layoutX="87.0" layoutY="206.0" prefHeight="17.0" prefWidth="242.0" />
+      <ImageView fitHeight="77.0" fitWidth="123.0" layoutX="259.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../AppServ/www/ingresos/imagenes/operador1.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

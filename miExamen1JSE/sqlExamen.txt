@@ -1,0 +1,18 @@
+CREATE TABLE IF NOT EXISTS usuario(
+id integer PRIMARY KEY,
+nomUsuario text NOT NULL UNIQUE,
+password text NOT NULL,
+nombres text NOT NULL,
+apellidos text NOT NULL,
+direccion text NOT NULL,
+telefono integer NULL);
+
+INSERT INTO usuario(nomUsuario, password, nombres, apellidos, direccion, telefono) VALUES ("jlopez","12345","Jose","Lopez Zapata","C. 10 Obrajes Nro.456",2456789);
+
+INSERT INTO usuario(nomUsuario, password, nombres, apellidos, direccion, telefono) VALUES ("psoruco","12345","Pablo","Soruco Conde","C. Catacora Nro,21",2214567);
+
+INSERT INTO usuario(nomUsuario, password, nombres, apellidos, direccion, telefono) VALUES ("amendez","12345","Ana Maria","Mendez Gutierrez","Av. Republica Nro.100",2345678);
+
+INSERT INTO usuario(nomUsuario, password, nombres, apellidos, direccion, telefono) VALUES ("mflores","12345","Monica","Flores Perez","C. 10 Bajo San Antonio Nro.50",2567891);
+
+INSERT INTO usuario(nomUsuario, password, nombres, apellidos, direccion, telefono) VALUES ("vsanchez","12345","Vicente","Sanchez Lima","Av. Armentia Nro.710",2654789);
